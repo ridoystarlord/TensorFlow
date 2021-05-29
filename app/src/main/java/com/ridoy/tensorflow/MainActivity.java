@@ -45,6 +45,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        initializeUIElements();
     }
     private void initializeUIElements() {
         imageView = findViewById(R.id.iv_capture);
